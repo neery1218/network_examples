@@ -1,4 +1,6 @@
 udp_server
 udp_client
+tcp_server
+tcp_client
 *dSYM/
 Session.vim
