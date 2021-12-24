@@ -16,7 +16,6 @@ int main(int argc, char **argv) {
 
   struct sockaddr_in dest_addr;
   dest_addr.sin_family = AF_INET;
-  dest_addr.sin_port = htons(atoi(argv[2]));
   Inet_pton(socket_fd, argv[1], &dest_addr.sin_addr);
 
   for (int i = 0; i < 100; ++i) {
