@@ -11,7 +11,7 @@
 int Socket(int domain, int type, int protocol) {
   int socket_fd;
   if ((socket_fd = socket(domain, type, protocol)) < 0) {
-    fprintf(stderr, "socket_fd %d failed with errno %d", socket_fd, errno);
+    perror("Socket creation failed");
     exit(1);
   }
   return socket_fd;
