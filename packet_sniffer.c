@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <libnet.h>
 
 struct ipv4_header {
   uint8_t version_and_ihl;

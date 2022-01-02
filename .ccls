@@ -1,0 +1,2 @@
+clang
+-I/opt/homebrew/Cellar/libnet/1.2/include
